@@ -1,0 +1,6 @@
+ age BMI  bp gender 
+1  60  28 124   male 
+2  43  32 145 female 
+3  72  21 127 female 
+4  35  27 133   male 
+5  47  35 140 female 
