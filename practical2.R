@@ -95,10 +95,22 @@ iqr_dimers <- s_d[5] - s_d[2]
 
 sd(dimers_area)
 
-# Both measures, IQR and sd, indicate amount of variability. IQR consider the variability within 50% of the dataset and standard 
-# deviation consider every single value. In skewed distributions is not possible to calculate standard deviation from IQR,
-# because there are more outliers or extreme values and standard deviation take into account variation in all values.
-# With a normal distribution, not skewed, is possible to calculate the standard deviation from the IQR. In this case, it is skewed.
+# Both measures, IQR and sd, indicate amount of variability. IQR consider the variability within 50% of the dataset and 
+# standard deviation consider every single value. In skewed distributions is not possible to calculate standard deviation 
+# from IQR, because there are more outliers or extreme values and standard deviation take into account variation in all
+# values. With a normal distribution, not skewed, is possible to calculate the standard deviation from the IQR. In this case, it is skewed.
 
-# The interquartile range is a robust estimator of the standard deviation. 
-# Robust means it is less prone to outliers.
+
+# 2.4 Create a boxplot of dimers and monomers in one graph using '~' to put them in the same scale
+
+boxplot(interfaces$area ~ interfaces$type, main="Box plot")
+
+
+
+
+
+
+
+
+
+## 
